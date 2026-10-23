@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "Mama Tee's Kitchen",
+    "colors": {
+      "background": "#14100D",
+      "primary": "#FF7A1A",
+      "accent": "#FFD23F",
+      "text": "#FFFFFF",
+      "muted": "#CFC6BA"
+    },
+    "style": "bold"
+  },
+  "format": "9:16",
+  "scenes": [
+    { "type": "hook", "text": "Too tired to *cook* tonight?", "sub": "We've got you." },
+    {
+      "type": "problem",
+      "title": "Sound familiar?",
+      "lines": ["Long day at work", "Fast food every night", "Delivery that comes cold"]
+    },
+    {
+      "type": "product",
+      "title": "Home-cooked meals, *delivered hot*",
+      "subtitle": "Jollof, egusi, ofada & more",
+      "badge": "NEW"
+    },
+    {
+      "type": "benefits",
+      "title": "Why Lagos loves us",
+      "items": [
+        { "icon": "clock", "text": "At your door in 45 mins" },
+        { "icon": "heart", "text": "Cooked fresh, like home" },
+        { "icon": "truck", "text": "Free delivery in Lekki" }
+      ]
+    },
+    { "type": "stat", "value": "5,000+", "label": "happy plates served" },
+    {
+      "type": "price",
+      "label": "This week only",
+      "oldPrice": "₦6,500",
+      "price": "₦4,500",
+      "note": "Full meal + drink"
+    },
+    {
+      "type": "testimonial",
+      "quote": "Tastes exactly like my mum's cooking. I order every Friday!",
+      "name": "Adaeze O.",
+      "role": "Lekki Phase 1"
+    },
+    {
+      "type": "cta",
+      "text": "Order your plate *now*",
+      "button": "Chat us to order",
+      "contacts": [
+        { "icon": "chat", "text": "0803 000 0000" },
+        { "icon": "globe", "text": "@mamateeskitchen" }
+      ],
+      "urgency": "Promo ends Sunday"
+    }
+  ],
+  "audio": { "sfx": true }
+}

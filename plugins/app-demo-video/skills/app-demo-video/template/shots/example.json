@@ -1,0 +1,28 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "device": "desktop",
+  "scale": 2,
+  "hide": [".user-email", "nextjs-portal"],
+  "startPath": "/login",
+  "setup": [
+    { "fill": ["input[name=email]", "demo@example.com"] },
+    { "fill": ["input[name=password]", "demo-password-123"] },
+    { "click": "button[type=submit]" },
+    { "waitFor": "text=Dashboard" }
+  ],
+  "shots": [
+    { "name": "dashboard", "path": "/dashboard", "focus": "[data-testid=revenue-card]" },
+    {
+      "name": "create-item",
+      "path": "/items",
+      "record": true,
+      "actions": [
+        { "click": "text=New item" },
+        { "type": ["input[name=name]", "Website redesign"] },
+        { "click": "button:has-text('Create')" },
+        { "waitFor": "text=Website redesign" }
+      ],
+      "focus": "text=Website redesign"
+    }
+  ]
+}

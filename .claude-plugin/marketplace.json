@@ -1,0 +1,20 @@
+{
+  "name": "video-skills",
+  "description": "Claude skills that turn code and business info into finished promo and demo videos.",
+  "owner": {
+    "name": "Olugbenga Ajewole",
+    "url": "https://github.com/ajewoleOlugbenga"
+  },
+  "plugins": [
+    {
+      "name": "app-demo-video",
+      "source": "./plugins/app-demo-video",
+      "description": "Turn a web app's code repository into a polished demo video: screenshots, screen recordings, zooms, music and optional free AI voiceover."
+    },
+    {
+      "name": "promo-ad-video",
+      "source": "./plugins/promo-ad-video",
+      "description": "Turn a short business description into a 15-30 second animated promo ad for Reels, TikTok and WhatsApp Status."
+    }
+  ]
+}

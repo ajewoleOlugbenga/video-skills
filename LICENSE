@@ -19,3 +19,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---------------------------------------------------------------------------
+Third-party components keep their own licences (see README "Licences"):
+- Remotion (installed by npm, not included here): Remotion License
+- Poppins and Inter fonts (bundled): SIL Open Font License 1.1, see
+  plugins/*/skills/*/template/public/fonts/OFL.txt
+- Norman and Cori voices (downloaded on first use): MIT
+- sherpa-onnx (installed by pip): Apache 2.0

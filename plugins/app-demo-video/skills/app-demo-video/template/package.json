@@ -1,0 +1,25 @@
+{
+  "name": "app-demo-template",
+  "version": "1.0.0",
+  "description": "Video engine and capture tools used by the app-demo-video skill",
+  "scripts": {
+    "scan": "node scripts/scan-repo.mjs",
+    "capture": "node scripts/capture.mjs",
+    "studio": "remotion studio",
+    "stills": "bash scripts/render.sh",
+    "render": "bash scripts/render.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "@remotion/renderer": "4.0.537",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.537"
+  },
+  "private": true,
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

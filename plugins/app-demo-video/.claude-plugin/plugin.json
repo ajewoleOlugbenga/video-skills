@@ -1,0 +1,20 @@
+{
+  "name": "app-demo-video",
+  "displayName": "App Demo Video",
+  "version": "1.0.0",
+  "description": "Turn a web app's code repository into a polished demo video: screenshots, screen recordings, zooms, music and optional free AI voiceover.",
+  "author": {
+    "name": "Olugbenga Ajewole",
+    "url": "https://github.com/ajewoleOlugbenga"
+  },
+  "keywords": [
+    "video",
+    "demo",
+    "product demo",
+    "remotion",
+    "marketing"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ajewoleOlugbenga/video-skills",
+  "repository": "https://github.com/ajewoleOlugbenga/video-skills"
+}

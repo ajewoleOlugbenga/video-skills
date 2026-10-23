@@ -1,0 +1,21 @@
+{
+  "name": "promo-ad-video",
+  "displayName": "Promo Ad Video",
+  "version": "1.0.0",
+  "description": "Turn a short business description into a 15-30 second animated promo ad for Reels, TikTok and WhatsApp Status.",
+  "author": {
+    "name": "Olugbenga Ajewole",
+    "url": "https://github.com/ajewoleOlugbenga"
+  },
+  "keywords": [
+    "video",
+    "ad",
+    "promo",
+    "small business",
+    "remotion",
+    "marketing"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ajewoleOlugbenga/video-skills",
+  "repository": "https://github.com/ajewoleOlugbenga/video-skills"
+}

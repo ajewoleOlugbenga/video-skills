@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "name": "YourApp",
+    "colors": { "background": "#0E1020", "primary": "#4F46E5", "accent": "#A5B4FC", "text": "#FFFFFF", "muted": "#B9BED6" }
+  },
+  "format": "16:9",
+  "scenes": [
+    { "type": "hook", "text": "Still doing this *by hand?*" },
+    { "type": "intro", "tagline": "One line that says what your app does" },
+    {
+      "type": "benefits",
+      "title": "Why teams switch",
+      "items": [
+        { "icon": "bolt", "text": "Set up in 2 minutes" },
+        { "icon": "users", "text": "Built for teams" },
+        { "icon": "lock", "text": "Your data stays yours" }
+      ]
+    },
+    { "type": "cta", "text": "Try it *free*", "button": "Get started", "contacts": [{ "icon": "globe", "text": "yourapp.com" }] }
+  ]
+}
