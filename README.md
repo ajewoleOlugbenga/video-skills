@@ -7,6 +7,27 @@ Free, open-source Claude skills that make finished videos for you, with no editi
 | **App Demo Video** | Point it at a web app's code. Claude scans it, drafts the pitch, asks you a few questions, runs the app, captures screenshots and screen recordings, and renders a polished demo video with zooms, cursor, music and an optional free AI voiceover with subtitles. Landscape or portrait. |
 | **Promo Ad Video** | Describe a business or product. Claude writes the ad and renders a 15–30 second animated promo for Reels, TikTok or WhatsApp Status. |
 
+## See it in action
+
+Both videos were made entirely by the skills, with no editing software. Previews are silent; click one to watch the full video with sound.
+
+<table>
+  <tr>
+    <th>App Demo Video</th>
+    <th>Promo Ad Video</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <a href="docs/media/app-demo-example.mp4"><img src="docs/media/app-demo-example.gif" alt="App demo video example: dashboard and task screens in a browser frame with zoom, callouts and subtitles" width="480"></a>
+      <br><sub>16:9 demo with AI voiceover and subtitles, made from a small test app. <a href="docs/media/app-demo-example.mp4">Watch with sound (25 s)</a></sub>
+    </td>
+    <td valign="top">
+      <a href="docs/media/promo-ad-example.mp4"><img src="docs/media/promo-ad-example.gif" alt="Promo ad example for a fictional Lagos food business: kinetic text, price burst and call to action" width="240"></a>
+      <br><sub>9:16 ad for a fictional food business. <a href="docs/media/promo-ad-example.mp4">Watch with sound (27 s)</a></sub>
+    </td>
+  </tr>
+</table>
+
 ## Install
 
 You need [Claude Code](https://code.claude.com/docs/en/quickstart) (a paid Claude plan) and [Node.js 18+](https://nodejs.org). Optional: Python 3 for the AI voiceover, and ffmpeg.
